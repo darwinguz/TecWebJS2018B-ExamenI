@@ -1,6 +1,6 @@
 import {AppUtil} from "../utils/app-util";
 
-class Ejercicio1 {
+export class Ejercicio1 {
     private pathArchivo: string;
 
     constructor(path) {
@@ -20,5 +20,5 @@ class Ejercicio1 {
 }
 
 const ejercicio1 = new Ejercicio1('../pokemon/data.json');
-ejercicio1.resolver().then(value => console.log(value));
+// ejercicio1.resolver().then(value => console.log(value));
 
